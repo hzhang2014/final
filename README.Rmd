@@ -1,0 +1,7 @@
+---
+title: "Project 2"
+author: "Hui Zhang"
+date: "Thursday, December 11, 2014"
+output: html_document
+---
+
