@@ -43,7 +43,7 @@ breakthrough("Radium.xlsx")
 ```
 <img src="example_breakthrough.png", style="margin:0px auto;display:block" width="500">      
 *Note: *      
-To go through with this example, you need to download **[Radium.xlsx](https://github.com/hzhang2014/final/blob/master/Radium.xlsx)** file in your working directory.
+To go through with this example, you need to download [Radium.xlsx](https://github.com/hzhang2014/final/blob/master/Radium.xlsx) file in your working directory.
 
 * `breakthrough.norm` is the function to create a breakthrough curve with normalized x-axis and y-axis.         
 **input**: file_name.xlsx, bed volume of the resin in *ml*          
