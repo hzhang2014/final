@@ -5,16 +5,7 @@
 #' @return A table of raw data, and a breakthrough curve
 #' @export
 breakthrough <- function(file){
-  #install package
-  install.packages("xlsx")
-  install.packages("Hmisc")
-  
-  #load installed package
-  #package for importing .xlsx file
-  library(xlsx)
-  #package for adding vertical error bars
-  library(Hmisc)
-  
+
   #Import initial data
   #data <- read.xlsx("Radium.xlsx",sheetIndex=1)
   data <- read.xlsx(file,sheetIndex=1)  #import data as data.frame
@@ -98,17 +89,7 @@ breakthrough <- function(file){
 #' @return A table of raw data, and a breakthrough curve
 #' @export
 breakthrough.norm <- function(file, bed_volume=12){
-  #install package
-  install.packages("xlsx")
-  install.packages("Hmisc")
-  
-  #load installed package
-  #package for import .xls file
-  library(xlsx)
-  #package for vertical error bars
-  library(Hmisc)
-  
-  
+
   #Import initial data
   data <- read.xlsx(file,sheetIndex=1)  #import data as data.frame
   print(data)
@@ -197,11 +178,6 @@ breakthrough.norm <- function(file, bed_volume=12){
 capacity <- function(file, weight,element){
   #Calculate ion-exchange capacity of Ra
   #import data
-  #check package
-  install.packages("xlsx")
-  #loading installed package
-  #package for import .xls file
-  library(xlsx)
   data <- read.xlsx(file,sheetIndex=1)
   
   #calculate average flow rate

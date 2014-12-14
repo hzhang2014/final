@@ -12,17 +12,23 @@ Package `final` could be downloaded from [GitHub](https://github.com/hzhang2014)
 
 
 ```R
-####First install `devtools`, a collection iof package development tools####
+####First install `devtools`, a collection of package development tools####
 install.packages("devtools")
 ####load `devtools`####
 library(devtools)
-####install `final` from github####
+####Install `final` from github####
 install_github("final","hzhang2014")
+####Install `xlsx`, a package to read, write and format Excel files####
+install.packages("xlsx")
+####Install `Hmisc`, a package contains functions for data analysis. This package will be used to generate error bar in the plot.####
+install.packages("Hmisc")
 ```
 
 2.Load packages
 ```R
 library(final)
+library(xlsx)
+library(Hmisc)
 ```
 
 3.Use packages       
