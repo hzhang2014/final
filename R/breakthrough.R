@@ -231,11 +231,13 @@ capacity <- function(file, weight,element){
   
   #calculate ion-exchange capacity
   capacity <- amount/weight
+   #round number with 3 number of decimal places
+  capacity.round <- round(capacity, digits=3)
   #define the unit
   if(element=="Ra"){
     unit <- "nCi/g"  
   } else {unit <- "m moles/g"}
-  element.capacity <- paste("Ion-exchange capacity for",element,"is",capacity,unit)
+  element.capacity <- paste("Ion-exchange capacity for",element,"is",capacity.round,unit)
   
   return(element.capacity)
 }
