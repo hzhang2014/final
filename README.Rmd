@@ -1,5 +1,5 @@
 ---
-title: "Final"
+title: "Breakthrough"
 author: "Hui Zhang"
 date: "Thursday, December 11, 2014"
 output: html_document
@@ -12,7 +12,7 @@ My idea for project is related to my independent study on Radium removal by ion-
 ### How to use
 This instruction is for Windows.          
 1.Install packages          
-Package `final` could be downloaded from [GitHub](https://github.com/hzhang2014).       
+Package `breakthrough` could be downloaded from [GitHub](https://github.com/hzhang2014).       
 
 
 ```R
@@ -20,7 +20,7 @@ Package `final` could be downloaded from [GitHub](https://github.com/hzhang2014)
 install.packages("devtools")
 ####load `devtools`####
 library(devtools)
-####install `final` from github####
+####install `breakthrough` from github####
 install_github("final","hzhang2014")
 ####Install `xlsx`, a package to read, write and format Excel files####
 install.packages("xlsx")
@@ -30,7 +30,7 @@ install.packages("Hmisc")
 
 2.Load packages
 ```R
-library(final)
+library(breakthrough)
 library(xlsx)
 library(Hmisc)
 ```
@@ -46,7 +46,7 @@ There are three functions included in the package:
 breakthrough("Radium.xlsx")
 ```
 ```{r,echo=FALSE}
-library("final")
+library("breakthrough")
 library("xlsx")
 library("Hmisc")
 breakthrough("Radium.xlsx")
@@ -64,7 +64,7 @@ To go through with this example, you need to download [Radium.xlsx](https://gith
 breakthrough.norm("Radium.xlsx",12)
 ```
 ```{r,echo=FALSE}
-library("final")
+library("breakthrough")
 library("xlsx")
 library("Hmisc")
 breakthrough.norm("Radium.xlsx",12)
@@ -85,5 +85,5 @@ capacity("Radium.xlsx",9.6,"Ra")
 
            
 #####Note:        
-You can track (and contribute to) development of `final` at [https://github.com/hzhang2014/final](https://github.com/hzhang2014/final).            
+You can track (and contribute to) development of `breakthrough` at [https://github.com/hzhang2014/final](https://github.com/hzhang2014/final).            
 Any comments are welcomed.

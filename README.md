@@ -1,4 +1,4 @@
-Final
+Breakthrough
 ========
 
 ### Introduction  
@@ -8,7 +8,7 @@ My idea for project is related to my independent study on Radium removal by ion-
 ### How to use
 This instruction is for Windows.          
 1.Install packages          
-Package `final` could be downloaded from [GitHub](https://github.com/hzhang2014).       
+Package `breakthrough` could be downloaded from [GitHub](https://github.com/hzhang2014).       
 
 
 ```R
@@ -16,7 +16,7 @@ Package `final` could be downloaded from [GitHub](https://github.com/hzhang2014)
 install.packages("devtools")
 ####load `devtools`####
 library(devtools)
-####Install `final` from github####
+####Install `breakthrough` from github####
 install_github("final","hzhang2014")
 ####Install `xlsx`, a package to read, write and format Excel files####
 install.packages("xlsx")
@@ -26,7 +26,7 @@ install.packages("Hmisc")
 
 2.Load packages
 ```R
-library(final)
+library(breakthrough)
 library(xlsx)
 library(Hmisc)
 ```

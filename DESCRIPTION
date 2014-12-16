@@ -1,10 +1,10 @@
-Package: final
+Package: breakthrough
 Title: breakthrough
 Version: 0.0.0.9000
 Author: Hui ZHANG <ppaohh@umich.edu>
 Maintainer: Hui ZHANG <ppaohh@umich.edu>
 Description: create breakthrough curve
 Depends:
-    R (>= 3.1.2)
+    R (>= 3.1.1)
 License: MIT
 LazyData: true
