@@ -50,7 +50,7 @@ To go through with this example, you need to download [Radium.xlsx](https://gith
 **output**: figure     
 **Example**: 
 ```R
-breakthrough("Radium.xlsx",12)
+breakthrough.norm("Radium.xlsx",12)
 ```
 <img src="example_breakthrough_norm.png", style="margin:0px auto;display:block" width="500">
 * `capacity` is the function to calculate ion-exchange capacity of a certain chemical element.           
