@@ -1,0 +1,29 @@
+---
+title: "Test"
+author: "Hui Zhang"
+date: "Tuesday, December 16, 2014"
+output: html_document
+---
+
+This file is an instruction for the test file in this package.           
+Three functions are included in `breakthrough` packages. Two of the functions are to produce a breakthrough curve. One is to calculate the ion-exchange capacity. So in the test file, only function`capacity` has been tested. The first test is for the input data. It is used to test whether the data is imported as a data.frame. The other two test is for function `capacity`.This funciton is tested by two examples: One is element "Ra", and the other is element "Ba".                        
+
+
+
+###How to use 
+1. Install `testthat` packages          
+If you don't have installed `testthat` packages before, please use the command below to install it. `testthat` package is a testing package specifically tailored for R.
+
+```R
+install.packages("testthat")
+```           
+2. Run test file
+
+```{r}
+library(testthat)
+source("breakthrough.R")
+test_dir("./")
+```
+The results is three dot, i.e. "...". The number of dots represents the number of tests that work. So, here 3 dots means there are 3 tests that are pass.
+
+
