@@ -46,9 +46,9 @@ There are three functions included in the package:
 breakthrough("Radium.xlsx")
 ```
 ```{r,echo=FALSE}
-library("breakthrough")
-library("xlsx")
-library("Hmisc")
+library(breakthrough)
+library(xlsx)
+library(Hmisc)
 breakthrough("Radium.xlsx")
 
 ```
@@ -64,9 +64,6 @@ To go through with this example, you need to download [Radium.xlsx](https://gith
 breakthrough.norm("Radium.xlsx",12)
 ```
 ```{r,echo=FALSE}
-library("breakthrough")
-library("xlsx")
-library("Hmisc")
 breakthrough.norm("Radium.xlsx",12)
 
 ```
