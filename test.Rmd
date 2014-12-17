@@ -24,6 +24,6 @@ library(testthat)
 source("breakthrough.R")
 test_dir("./")
 ```
-The results is three dot, i.e. "...". The number of dots represents the number of tests that work. So, here 3 dots means there are 3 tests that are pass.
+The results is three dot, i.e. "...". The number of dots represents the number of tests that success. So, here 3 dots means 3 tests pass.
 
 
