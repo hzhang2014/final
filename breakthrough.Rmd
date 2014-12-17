@@ -42,10 +42,8 @@ There are three functions included in the package:
 **input**: file_name.xlsx         
 **output**: figure        
 **Example**: 
-```R
-breakthrough("Radium.xlsx")
-```
-```{r,echo=FALSE}
+
+```{r}
 library(breakthrough)
 library(xlsx)
 library(Hmisc)
@@ -61,10 +59,8 @@ To go through with this example, you need to download [Radium.xlsx](https://gith
 **input**: file_name.xlsx, bed volume of the resin in *ml*          
 **output**: figure     
 **Example**: 
-```R
-breakthrough.norm("Radium.xlsx",12)
-```
-```{r,echo=FALSE}
+
+```{r}
 breakthrough.norm("Radium.xlsx",12)
 
 ```
@@ -74,10 +70,8 @@ breakthrough.norm("Radium.xlsx",12)
 **input**: file_name.xlsx, weight of resin in *g*, element interested          
 **output**: a complete sentense     
 **Example**: 
-```R
-capacity("Radium.xlsx",9.6,"Ra")
-```
-```{r,echo=FALSE}
+
+```{r}
 capacity("Radium.xlsx",9.6,"Ra")
 ```
 
