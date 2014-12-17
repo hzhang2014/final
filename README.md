@@ -61,7 +61,7 @@ breakthrough.norm("Radium.xlsx",12)
 capacity("Radium.xlsx",9.6,"Ra")
 ```
 ```R
-[1] "Ion-exchange capacity for Ra is 0.15391919900722 nCi/g"
+[1] "Ion-exchange capacity for Ra is 0.154 nCi/g"
 ```
   
            
